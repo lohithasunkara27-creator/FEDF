@@ -1,5 +1,3 @@
-
-
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +33,7 @@ function Profile() {
           Welcome,
           {user?.username} 👋
         </h1>
-        <br><br></br></br>
+        <br/><br/>
         <h3>
           Email:
           {user?.email}

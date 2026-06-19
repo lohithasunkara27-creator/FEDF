@@ -1,0 +1,94 @@
+.board-card {
+
+  width:250px;
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:25px;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+.board-card h2 {
+
+  color:#444;
+
+}
+
+
+.board-card p {
+
+  margin:15px 0;
+
+  color:#666;
+
+}
+
+
+.board-buttons {
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:10px;
+
+}
+
+
+.board-buttons button {
+
+  border:none;
+
+  padding:10px 15px;
+
+  border-radius:15px;
+
+  cursor:pointer;
+
+  background: var(--light-yellow);
+
+  color:#444;
+
+}
+.board-cover {
+
+ width: 100%;
+
+ height: 180px;
+
+ object-fit: cover;
+
+ border-radius: 20px;
+
+ margin-bottom: 15px;
+
+}
+
+
+.empty-cover {
+
+ width: 100%;
+
+ height: 180px;
+
+ background: #FFF8DC;
+
+ border-radius: 20px;
+
+ display: flex;
+
+ justify-content: center;
+
+ align-items: center;
+
+ font-size: 50px;
+
+ margin-bottom: 15px;
+
+}

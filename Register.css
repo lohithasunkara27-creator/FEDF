@@ -1,16 +1,21 @@
-
-
 .register-container {
-  height: 85vh;
+  min-height: 90vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #FFFDF5,
+      #FEF9C3
+    );
 }
 
 .register-form {
-  width: 400px;
-  padding: 30px;
-  box-shadow: 0px 0px 10px lightgray;
+  width: 420px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   background: white;
@@ -18,7 +23,7 @@
   border-radius: 24px;
 
   box-shadow:
-    0 8px 24px rgba(0,0,0,0.06);
+    0 10px 30px rgba(0,0,0,0.08);
 }
 
 .register-form h2 {
@@ -54,4 +59,17 @@
 
 .register-form input:focus {
   border-color: var(--primary);
+}
+input {
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(167,139,250,0.15);
 }

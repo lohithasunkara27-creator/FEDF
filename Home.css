@@ -1,5 +1,3 @@
-
-
 .hero {
   height: 90vh;
 
@@ -17,6 +15,8 @@
 .hero-content {
   text-align: center;
   width: 70%;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-content h1 {

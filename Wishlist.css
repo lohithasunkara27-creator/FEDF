@@ -1,0 +1,59 @@
+.wishlist-page {
+
+  padding: 50px;
+
+  text-align:center;
+
+}
+
+
+.wishlist-page h1 {
+
+  color: #444;
+
+  margin-bottom: 20px;
+
+}
+
+
+.create-btn {
+
+  background: var(--secondary);
+
+  color:#444;
+
+  border: 3px solid black !important;
+
+  padding:14px 25px;
+
+  border-radius: 20px;
+
+  font-size:16px;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+}
+
+
+.create-btn:hover {
+
+  transform: translateY(-2px);
+
+}
+
+
+.boards-grid {
+
+  margin-top:40px;
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  justify-content:center;
+
+  gap:25px;
+
+}
